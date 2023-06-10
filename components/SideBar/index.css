@@ -1,0 +1,127 @@
+.dashboard-cont{
+    position: relative;
+    min-width: 400px;
+    height: 100vh;
+    background-color: #19171D;
+    color: #D1D2D3;
+
+}
+
+.avion{
+    padding: 20px 30px;
+}
+
+.avion:hover{
+    cursor: pointer;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.channels-cont, .dm-cont{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu-con:hover{
+    position: relative;
+    background-color: #27242C;
+    border-radius: 12px;
+
+}
+
+.arrow{
+    padding: 4px;
+}
+.arrow:hover{
+    background-color: #27242C;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.channels{
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.channels span{
+    padding: 2px 4px;
+    background-color: #27242C;
+    border-radius: 5px;
+}
+
+
+.active{
+    background-color: #1164A3;
+    border-radius: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #D1D2D3;
+}
+
+.more-cont{
+    z-index: 10;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #27242C;
+    border-radius: 16px;
+    border: 1px solid rgba(140, 140, 140, 0.416);
+    left: 20px;
+    margin-top: -10px;
+}
+
+.mores{
+    padding: 15px;
+}
+
+.mores p, .mores h3{
+    padding: 3px;
+}
+
+.mores span{
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+  
+}
+
+.mores hr{
+    margin: 7px 0;
+}
+
+.addchannel{
+    background-color: #27242C;
+    width: 170px;
+    height: 70px;
+    z-index: 10;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid rgba(140, 140, 140, 0.416);
+    left: 180px;
+    margin-top: -10px;
+    padding: 10px 10px;
+}
+
+.addchannel p{
+    font-size: 14px;
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.addchannel p:hover{
+    background-color: #1164A3;
+}
+
+.channellist{
+    display: flex;
+}

@@ -1,0 +1,115 @@
+.registrationContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    font-family: Helvetica;
+    color: black;
+    margin-top: -220px;
+}
+
+.signInHeader {
+    display: flex;
+    flex-direction: row;
+    display: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 38px;
+    padding: 48px 0 40px;
+}
+
+.leftColumn, .centerColumn, .rightColumn {
+    display: flex;
+    flex: 1;
+}
+
+.centerColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slackText {
+    font-size: 28px;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 40px 0 0;
+    font-size: 13px;
+}
+
+.registerToSlack {
+    font-size: 48px;
+    margin: 20px;
+}
+
+.passwordInput {
+    width: 400px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid rgba(29, 28, 29, 0.3);
+    border-radius: 5px;
+    font-size: 18px;
+    text-indent: 18px;
+    margin-bottom: 20px;
+}
+
+.emailInput {
+    width: 400px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid rgba(29, 28, 29, 0.3);
+    border-radius: 5px;
+    font-size: 18px;
+    text-indent: 18px;
+    margin-bottom: 20px;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+}
+
+.registerButton {
+    height: 44px;
+    width: 400px;
+    border: none;
+    background-color: #4a154b;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: red;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.formcont{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.registrationContainer p{
+    margin: 10px;
+}

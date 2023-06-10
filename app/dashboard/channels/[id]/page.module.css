@@ -1,0 +1,13 @@
+.main{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.channelname{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.main hr{
+    margin: 18px -29px;
+}
