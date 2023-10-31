@@ -1,14 +1,16 @@
+import { cookies } from 'next/headers'
+
 const auth = "auth-user";
 
 export function getStoredUser() {
-  const user = localStorage.getItem(auth);
+  const user = cookies().get(auth)?.value;
   return user ? JSON.parse(user) : null;
 }
 
 export function setStoredUser(user) {
-  localStorage.setItem(auth, JSON.stringify(user));
+  cookies().set(auth, JSON.stringify(user));
 }
 
 export function clearStoredUser() {
-  localStorage.removeItem(auth);
+  cookies().delete(auth);
 }
