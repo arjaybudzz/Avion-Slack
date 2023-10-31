@@ -10,5 +10,5 @@ export function setStoredUser(user) {
 }
 
 export function clearStoredUser() {
-  localStorage.removeItem(auth);
+  localStorage.removeItem(auth)
 }
